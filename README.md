@@ -14,10 +14,11 @@ mim app install api-contact
 
 Menambahkan pesan kontak ke admin. Endpoint ini mengharapkan konten body dalam format json berbentuk seperti di bawah:
 
-```
+```json
 {
     "fullname": "User Fullname",
     "email": "user@mail.address",
     "subject": "Message Subject",
     "content": "..."
 }
+```
